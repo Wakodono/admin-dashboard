@@ -2,3 +2,8 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
