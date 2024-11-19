@@ -6,7 +6,6 @@
 
 ul,
 li {
-  margin-bottom: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -16,6 +15,10 @@ li {
   grid-template-columns: 4fr 8fr;
   grid-template-rows: 1fr 4fr;
   gap: 1rem;
+}
+
+.dashboard > * {
+    padding: 2rem;
 }
 
 /* Sidebar */
@@ -34,7 +37,7 @@ li {
   gap: 2em;
 }
 
-.sidebar-menu,
+.sidebar-menu > ul,
 .settings-and-help > ul {
   font-weight: 700;
   display: flex;
@@ -45,6 +48,12 @@ li {
 .header {
   display: grid;
   grid-area: 1 / 2 / 2 / 3;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 3fr 2fr;
+  grid-template-areas: 
+  'search-bar header-menu'
+  'user-greeting actions'
+  ;
 }
 
 .header-menu {
@@ -55,16 +64,6 @@ ul.header-menu {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.header-row1 {
-  display: flex;
-  justify-content: space-around;
-}
-
-.header-row2 {
-  display: flex;
-  align-items: center;
 }
 
 .header-search-wrapper {
