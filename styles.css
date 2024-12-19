@@ -18,6 +18,26 @@ li {
   padding: 0;
 }
 
+button {
+  background: #1B92D4;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 5px;
+  width: 4.125rem;
+}
+
+img {
+  height: 1rem;
+  color: white;
+}
+
+span {
+  margin-right: 1rem;
+}
+
 .dashboard {
   display: grid;
   grid-template-columns: 4fr 8fr;
@@ -156,5 +176,15 @@ ul.header-menu {
   margin: 0 auto;
   padding-top: 1rem;
   padding-bottom: 0.688rem;
+  margin-bottom: 1rem;
+}
+
+.trending {
+  border-radius: 5px;
+}
+
+.trending-card {
+  width: 82%;
+  margin: 0 auto;
   margin-bottom: 1rem;
 }
