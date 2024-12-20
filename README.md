@@ -4,19 +4,6 @@ An interactive and responsive admin dashboard built using **HTML**, **CSS**, and
 
 [View the live demo on GitHub Pages](#) <!-- Update with actual link after deployment -->
 
----
-
-## Features
-- Fully responsive layout for desktop and mobile.
-- Sidebar navigation menu with categories and settings links.
-- User greeting section with avatar and dynamic header actions.
-- A main content area displaying project cards and additional widgets.
-- Clean and reusable code following best practices.
-
----
-
 ## Screenshots
 <!-- Add images or GIFs of the dashboard -->
-![Admin Dashboard Preview](#) <!-- Update with screenshot link -->
-
----
+![Admin Dashboard Preview](https://github.com/Wakodono/admin-dashboard/blob/main/assets/Screenshot%202024-12-20%20at%2001.53.06.png) <!-- Update with screenshot link -->
