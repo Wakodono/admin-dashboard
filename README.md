@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-An interactive and responsive admin dashboard built using **HTML**, **CSS**, and **JavaScript**. This project showcases modern web design practices, focusing on a grid-based layout and flexible, responsive components.
+An admin dashboard built using **HTML**, **CSS**, and **JavaScript**. This project showcases modern web design practices, focusing on a grid-based layout.
 
 [View the live demo on GitHub Pages](#) <!-- Update with actual link after deployment -->
 
