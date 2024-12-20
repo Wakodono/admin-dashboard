@@ -2,6 +2,7 @@
   list-style: none;
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Funnel Sans', 'Arial', 'Helvetica', sans-serif;
 }
 
 h4 {
@@ -45,11 +46,6 @@ span {
 
 .dashboard > * {
   padding: 0 2rem;
-}
-
-.container.sidebar,
-.main {
-  outline: 1px solid red;
 }
 
 /* Sidebar */
@@ -109,6 +105,22 @@ ul.header-menu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.morgan-profile-pic {
+  border-radius: 50%;
+  height: 1.438rem;
+}
+
+.avatar .morgan-profile-pic {
+  height: 2.25rem;
+}
+
+#search-bar {
+  width: 77%;
+  border: 1px solid #c3c1c1;
+  border-radius: 10px;
+  background: #c3c1c1;
 }
 
 /* MAIN */
@@ -186,5 +198,8 @@ ul.header-menu {
 .trending-card {
   width: 82%;
   margin: 0 auto;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
 }
